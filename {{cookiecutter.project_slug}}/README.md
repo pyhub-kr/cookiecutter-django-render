@@ -14,8 +14,8 @@
    ```bash
    git clone <your-repo-url>
    cd {{cookiecutter.project_slug}}
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
    ```
 
 2. **Install dependencies**
