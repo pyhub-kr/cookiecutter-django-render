@@ -81,8 +81,8 @@ cd your_project_name
 가상환경 생성 및 활성화:
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
 ```
 
 의존성 설치:
