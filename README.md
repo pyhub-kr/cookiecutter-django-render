@@ -18,7 +18,7 @@ pip install cookiecutter
 ### 1. 프로젝트 생성
 
 ```bash
-cookiecutter https://github.com/yourusername/cookiecutter-django-render
+cookiecutter https://github.com/pyhub-kr/cookiecutter-django-render
 ```
 
 또는 로컬 템플릿 사용:
