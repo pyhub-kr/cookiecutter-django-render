@@ -1,4 +1,4 @@
-# Django Render.com Deployment Boilerplate PRD
+# Cookiecutter Django Render Template PRD
 
 ## 개요
 Render.com에 즉시 배포 가능한 Django 프로젝트 boilerplate를 cookiecutter를 통해 생성하는 도구

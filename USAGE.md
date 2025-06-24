@@ -1,4 +1,4 @@
-# Django Render Boilerplate 사용 가이드
+# Cookiecutter Django Render Template 사용 가이드
 
 ## 🚀 빠른 시작
 
@@ -9,7 +9,7 @@ pip install cookiecutter
 
 ### 2. 프로젝트 생성
 ```bash
-cookiecutter https://github.com/yourusername/django-render-boilerplate
+cookiecutter https://github.com/yourusername/cookiecutter-django-render
 ```
 
 ### 3. 프로젝트 설정
@@ -44,13 +44,13 @@ cookiecutter는 다음과 같이 직접 GitHub 주소를 지정하여 사용할 
 
 ```bash
 # HTTPS
-cookiecutter https://github.com/yourusername/django-render-boilerplate
+cookiecutter https://github.com/yourusername/cookiecutter-django-render
 
 # SSH
-cookiecutter git+ssh://git@github.com/yourusername/django-render-boilerplate
+cookiecutter git+ssh://git@github.com/yourusername/cookiecutter-django-render
 
 # 특정 브랜치 지정
-cookiecutter https://github.com/yourusername/django-render-boilerplate --checkout develop
+cookiecutter https://github.com/yourusername/cookiecutter-django-render --checkout develop
 ```
 
 ## 🌐 Render.com 배포
