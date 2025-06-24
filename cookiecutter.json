@@ -1,0 +1,15 @@
+{
+    "project_name": "Django Render Project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "app_name": "resume",
+    "author_name": "Your Name",
+    "author_email": "your.email@example.com",
+    "description": "A Django project ready for Render.com deployment",
+    "version": "0.1.0",
+    "use_https": "y",
+    "django_version": "5.2",
+    "python_version": "3.11",
+    "_copy_without_render": [
+        "*.pyc"
+    ]
+}
