@@ -3,6 +3,7 @@ services:
     name: {{cookiecutter.project_slug}}
     env: python
     plan: free
+    runtime: python-{{cookiecutter.python_version}}
     buildCommand: |
       pip install -r requirements.txt
       python manage.py collectstatic --noinput

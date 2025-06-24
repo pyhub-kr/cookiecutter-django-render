@@ -8,7 +8,7 @@
     "version": "0.1.0",
     "use_https": "y",
     "django_version": "5.2",
-    "python_version": "3.11",
+    "python_version": ["3.11", "3.12", "3.13"],
     "_copy_without_render": [
         "*.pyc"
     ]
